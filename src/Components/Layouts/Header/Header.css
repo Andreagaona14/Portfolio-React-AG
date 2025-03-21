@@ -1,21 +1,21 @@
-/*header {
+header {
   position: fixed;
-  top: 20px; /* Lo separa del borde superior 
+  top: 20px; /* Lo separa del borde superior */
   left: 50%;
-  transform: translateX(-50%); /* Lo centra horizontalmente 
+  transform: translateX(-50%); /* Lo centra horizontalmente */
   width: 80%;
-  background: rgba(255, 255, 255, 0.6); /* Fondo semitransparente 
+  background: rgba(255, 255, 255, 0.6); /* Fondo semitransparente */
   padding: 12px 25px;
   display: flex;
   align-items: center;
   gap: 20px;
-  border-radius: 50px; /* Bordes redondeados 
-  backdrop-filter: blur(10px); /* Efecto de vidrio esmerilado 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil 
+  border-radius: 50px; /* Bordes redondeados */
+  backdrop-filter: blur(10px); /* Efecto de vidrio esmerilado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   z-index: 1000;
 }
 
-/* Estilos del logo 
+/* Estilos del logo */
 header img {
   width: 50px;
   height: 50px;
@@ -23,7 +23,7 @@ header img {
   margin-left: 3.5rem;
 }
 
-/* Título del portafolio 
+/* Título del portafolio */
 header h2 {
   font-size: 1.2rem;
   color: #333;
@@ -38,7 +38,7 @@ header h2 {
   margin-left: 10rem;
 }
 
-/* Estilos de los enlaces 
+/* Estilos de los enlaces */
 .Navbar a {
   text-decoration: none;
   color: #333;
@@ -53,7 +53,7 @@ header h2 {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Botón de menú hamburguesa 
+/* Botón de menú hamburguesa */
 .hamburger {
   font-size: 2rem;
   background: none;
@@ -63,7 +63,7 @@ header h2 {
   color: #333;
 }
 
-/* Diseño responsive 
+/* Diseño responsive */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -119,4 +119,3 @@ header h2 {
     cursor: pointer;
   }
 }
-*/
