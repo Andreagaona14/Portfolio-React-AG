@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import { CardSkills } from "../../UI/CardSkills/CardSkills";
 import { CardSkillsInfo } from "../../UI/CardSkillsInfo/CardSkillsInfo";
 import ImGithub from "../../../assets/img/ImgGithub.png"
@@ -16,7 +16,7 @@ export const Skills = () => {
     <CardSkills  />
  </div>
 
-  {/* Otras habilidades con descripción 
+  {/* Otras habilidades con descripción */}
   <h2 className='title2'>Otras Habilidades</h2>
   <div className="skills-info-container">
     <CardSkillsInfo img={ImGithub} SkillsNameInfo="Control de Versiones" description="Git, GitHub" />
@@ -25,4 +25,3 @@ export const Skills = () => {
 </div>
   )
 }
-*/
