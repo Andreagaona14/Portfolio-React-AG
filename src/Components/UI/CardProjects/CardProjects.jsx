@@ -1,4 +1,4 @@
-/*export const CardProjects = ({ img, text, link, textP }) => {
+export const CardProjects = ({ img, text, link, textP }) => {
     const handleClick = () => {
       window.location.href = link;
     };
@@ -28,4 +28,3 @@
       </section>
     )
   }
-  */
