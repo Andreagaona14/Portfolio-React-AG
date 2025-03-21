@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import { ItemFooter } from '../ItemFooter/ItemFooter'
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
@@ -14,4 +14,3 @@ export const NavbarFooter = () => {
     </nav>
   )
 }
-*/
