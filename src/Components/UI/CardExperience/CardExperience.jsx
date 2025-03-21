@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 
 export const CardExperience = ({ img, Experience }) => {
   return (
@@ -12,4 +12,3 @@ export const CardExperience = ({ img, Experience }) => {
     </section>
   )
 }
-*/
