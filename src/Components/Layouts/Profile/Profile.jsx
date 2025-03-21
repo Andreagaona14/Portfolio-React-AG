@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import ImgProfile from "../../../assets/img/ImgProfile.jpeg";
 
 export const Profile = () => {
@@ -30,4 +30,3 @@ export const Profile = () => {
     </section>
   )
 }
-*/
