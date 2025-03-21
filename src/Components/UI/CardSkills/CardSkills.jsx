@@ -1,4 +1,4 @@
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import {IconSkills} from "../IconSkills/IconSkills"; 
 import ImgHtml from "../../../assets/img/ImgHtml.webp"
 import ImgReact from "../../../assets/img/ImgReact.png"
@@ -21,4 +21,3 @@ export const CardSkills = () => {
     </>
   )
 }
-*/
