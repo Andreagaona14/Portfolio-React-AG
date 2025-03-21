@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 
 export const FormContact = ({formData, formStatus, handleInputChange, handleSubmit}) => {
   return (
@@ -69,4 +69,3 @@ export const FormContact = ({formData, formStatus, handleInputChange, handleSubm
     </div>
   )
 }
-*/
