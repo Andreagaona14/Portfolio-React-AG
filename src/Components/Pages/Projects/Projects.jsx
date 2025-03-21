@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { CardProjects } from "../../UI/CardProjects/CardProjects";
 import "./Projects.css";
 import Proyecto1 from "../../../assets/img/Proyecto1.png";
@@ -40,4 +40,3 @@ export const Projects = () => {
     </div>
   )
 }
-  */
