@@ -1,4 +1,4 @@
-/*.experience-section {
+.experience-section {
   padding: 40px 20px;
   background: linear-gradient(to bottom, #dfe9f3);
   text-align: center;
@@ -11,7 +11,7 @@
 
 .experience-container {
   display: flex;
-  gap: 40px; /* Aumenta la separación entre tarjetas 
+  gap: 40px; /* Aumenta la separación entre tarjetas */
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding-bottom: 20px;
@@ -19,7 +19,7 @@
   scrollbar-color: #888 transparent;
 }
 
-/* Ocultar scrollbar en Chrome, Safari y Edge 
+/* Ocultar scrollbar en Chrome, Safari y Edge */
 .experience-container::-webkit-scrollbar {
   height: 6px;
 }
@@ -35,7 +35,7 @@
 
 .experience-container > * {
   flex: 0 0 auto;
-  width: 320px; /* Ajuste de ancho 
+  width: 320px; /* Ajuste de ancho */
   scroll-snap-align: start;
 }
 
@@ -47,12 +47,11 @@
   text-align: left;
 }
 
-/* Ajustar imágenes al mismo tamaño 
+/* Ajustar imágenes al mismo tamaño */
 .card-experience img {
   width: 100%;
-  height: 250px; /* Altura fija 
-  object-fit: cover; /* Mantiene proporciones recortando si es necesario 
+  height: 250px; /* Altura fija */
+  object-fit: cover; /* Mantiene proporciones recortando si es necesario */
   border-radius: 10px;
   margin-bottom: 10px;
 }
-*/
