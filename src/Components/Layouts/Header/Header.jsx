@@ -1,4 +1,4 @@
- /* import { Navbar } from "../../UI/Navbar/Navbar"
+ import { Navbar } from "../../UI/Navbar/Navbar"
   import React, { useState, useEffect } from 'react';
   import {  Link, useLocation } from 'react-router-dom';
   import logo from "../../../assets/img/logo.jpeg";
@@ -16,7 +16,7 @@
 
     return (
       <header>
-        /* Enlace a la página de inicio 
+   
       <Link to="/">
         <img src={logo} alt="Logo" />
       </Link>
@@ -33,4 +33,3 @@
       </header>
     )
   }
-  */
