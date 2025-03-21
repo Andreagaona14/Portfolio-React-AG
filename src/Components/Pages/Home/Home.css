@@ -1,6 +1,6 @@
-/*.homeSection {
+.homeSection {
   display: flex;
-  justify-content: space-between; /* Espaciado entre el texto y la imagen 
+  justify-content: space-between; /* Espaciado entre el texto y la imagen */
   align-items: center;
   flex-direction: row;
   gap: 50px;
@@ -56,15 +56,15 @@ left: 100px;
 }
 
 
-/*PERFIL
+/*PERFIL*/
 .profile-container {
 display: flex;
-align-items: center; /* Centra verticalmente 
-justify-content: center; /* Centra horizontalmente 
-gap: 20px; /* Espaciado entre la imagen y el texto 
+align-items: center; /* Centra verticalmente */
+justify-content: center; /* Centra horizontalmente */
+gap: 20px; /* Espaciado entre la imagen y el texto */
 max-width: 80%;
 width: 100%;
-margin: auto; /* Centra el contenido 
+margin: auto; /* Centra el contenido */
 text-align: center;
 }
 
@@ -75,18 +75,18 @@ text-align: center;
 
 .profile-container p {
   text-align: center;
-  max-width: 600px; /* Controla el ancho del texto 
+  max-width: 600px; /* Controla el ancho del texto */
   }
 
 .imgProfile img {
-width: 200px; /* Tamaño de la imagen 
+width: 200px; /* Tamaño de la imagen */
 height: 200px;
-border-radius: 50%; /* Imagen circular 
+border-radius: 50%; /* Imagen circular */
 object-fit: cover;
 }
 
 .profile-section {
- /* min-height: 100vh; /* Hace que la sección del perfil ocupe al menos el alto de la pantalla 
+ /* min-height: 100vh; /* Hace que la sección del perfil ocupe al menos el alto de la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,12 +94,12 @@ object-fit: cover;
   top: -100px
 }
 
-/*HABILIDADES SOCIALES
+/*HABILIDADES SOCIALES*/
 .tittleSocialskills {
   display: flex;
-  flex-direction: column; /* Apila los elementos en columna 
-  align-items: center; /* Centra horizontalmente 
-  justify-content: center; /* Centra verticalmente si hay espacio 
+  flex-direction: column; /* Apila los elementos en columna */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente si hay espacio */
   padding: 80px;
   gap: 10px; 
 }
@@ -107,4 +107,3 @@ object-fit: cover;
 .tittleSocialskills p{
   margin: 1px ;
 }
-  */
