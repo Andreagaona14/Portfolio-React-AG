@@ -9,7 +9,7 @@ export const NavbarFooter = () => {
             <ItemFooter icon={FaGithub} link='https://github.com/Andreagaona14'/>
             <ItemFooter icon={FaInstagram} link='https://www.instagram.com/andree_g9/profilecard/?igsh=MW5lOTdkdjUyZ2VuZg==' />
             <ItemFooter icon={FaLinkedin} link='#' /> 
-            {/* Agregar el link de LinkedIn cuando lo tengas 
+            {/* Agregar el link de LinkedIn cuando lo tengas */}
         </ul>
     </nav>
   )

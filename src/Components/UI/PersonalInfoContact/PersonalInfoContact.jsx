@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 
 export const PersonalInfoContact = ({icon,title, data}) => {
   return (
@@ -13,4 +13,3 @@ export const PersonalInfoContact = ({icon,title, data}) => {
     </div>
   )
 }
-*/
