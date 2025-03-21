@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { NavbarFooter } from "../../UI/NavbarFooter/NavbarFooter";
 import "./Footer.css";
 
@@ -11,4 +11,3 @@ export const Footer = () => {
     </footer>
   )
 }
-  */
