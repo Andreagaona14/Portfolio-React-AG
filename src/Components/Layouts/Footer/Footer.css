@@ -1,4 +1,4 @@
-/*footer {
+footer {
   background-color: #1a3a5f;
   color: white;
   padding: 1.5rem 0;
@@ -8,7 +8,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* Estilo para el texto Conecta conmigo 
+/* Estilo para el texto Conecta conmigo */
 footer .social-title {
   font-size: 0.9rem;
   margin-bottom: 0.8rem;
@@ -60,4 +60,4 @@ footer p {
   footer nav ul li a {
     font-size: 1.4rem;
   }
-}*/
+}
