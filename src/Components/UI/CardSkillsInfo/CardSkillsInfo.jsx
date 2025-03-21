@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 
 export const CardSkillsInfo = ({img, SkillsNameInfo, description }) => {
   return (
@@ -14,4 +14,3 @@ export const CardSkillsInfo = ({img, SkillsNameInfo, description }) => {
        </section>
   )
 }
-*/
