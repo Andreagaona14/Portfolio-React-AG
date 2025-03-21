@@ -1,4 +1,4 @@
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import "./Contact.css"
 import { PersonalInfoContact } from '../../UI/PersonalInfoContact/PersonalInfoContact'
 import { FormContact } from '../../UI/FormContact/FormContact'
@@ -100,4 +100,3 @@ return (
   </section>
 )
 }
-*/
