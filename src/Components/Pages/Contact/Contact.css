@@ -1,0 +1,198 @@
+/*.contact-section {
+  padding: 64px 0;
+  background-color: #f9fafb;
+  margin-top:80px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1f2937;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; 
+}
+
+/* Estilos para la información personal 
+.personal-info {
+  flex: 1;
+}
+
+.info-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 32px;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Estilos para la información personal - definidos en el componente hijo 
+.info-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-icon {
+  margin-right: 16px;
+  color: #3b82f6;
+  font-size: 1.25rem;
+}
+
+.info-content h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.info-content p {
+  color: #1f2937;
+  font-size: 1rem;
+}
+
+/* Estilos para redes sociales 
+.social-links {
+  margin-top: 32px;
+}
+
+.social-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4b5563;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #3b82f6;
+}
+
+/* Estilos para el formulario - complementan los internos del componente 
+.contact-form {
+  flex: 1;
+}
+
+.form-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 32px;
+  height: 100%;
+}
+
+.notification {
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+.notification.success {
+  background-color: #ecfdf5;
+  color: #047857;
+}
+
+.notification.error {
+  background-color: #fef2f2;
+  color: #b91c1c;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 4px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #1f2937;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2563eb;
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+}
+
+/* Media queries para responsividad 
+@media (min-width: 768px) {
+  .contact-content {
+    flex-direction: row;
+  }
+}
+  */

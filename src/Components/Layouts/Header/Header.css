@@ -1,0 +1,122 @@
+/*header {
+  position: fixed;
+  top: 20px; /* Lo separa del borde superior 
+  left: 50%;
+  transform: translateX(-50%); /* Lo centra horizontalmente 
+  width: 80%;
+  background: rgba(255, 255, 255, 0.6); /* Fondo semitransparente 
+  padding: 12px 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px; /* Bordes redondeados 
+  backdrop-filter: blur(10px); /* Efecto de vidrio esmerilado 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil 
+  z-index: 1000;
+}
+
+/* Estilos del logo 
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 3.5rem;
+}
+
+/* Título del portafolio 
+header h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 8rem;
+}
+
+.navbarLink{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+  margin-left: 10rem;
+}
+
+/* Estilos de los enlaces 
+.Navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.Navbar a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Botón de menú hamburguesa 
+.hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  color: #333;
+}
+
+/* Diseño responsive 
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -0.3rem;
+  }
+
+  header h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: -1rem;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 8rem;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    transition: right 0.3s ease-in-out;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav.open {
+    right: 20px;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .nav ul li {
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+  }
+}
+*/
