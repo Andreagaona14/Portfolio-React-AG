@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 export const ItemNav = ({ Word, link = '', classItem}) => {
@@ -10,4 +10,3 @@ export const ItemNav = ({ Word, link = '', classItem}) => {
     </li>
   )
 }
-  */
