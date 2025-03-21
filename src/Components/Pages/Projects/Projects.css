@@ -1,4 +1,4 @@
-/*h2{
+h2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
   padding: 20px;
 }
 
-/* Card mejorada 
+/* Card mejorada */
 .Card {
   width: 100%;
   background-color: rgb(209, 231, 252);
@@ -34,7 +34,7 @@
   position: relative;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0px 4px 10px rgba(120, 150, 231, 0.1);
-  margin: 0 auto; /* Centra las tarjetas 
+  margin: 0 auto; /* Centra las tarjetas */
 }
 
 .Card:hover {
@@ -52,14 +52,14 @@
   bottom: 0;
   width: 100%;
   height: auto;
-  max-height: 60%; /* Limita la altura para evitar que cubra toda la tarjeta 
+  max-height: 60%; /* Limita la altura para evitar que cubra toda la tarjeta */
   background: rgba(0, 0, 0, 0.7);
   color: rgb(255, 255, 255);
   padding: 15px;
-  padding-top: 45px; /* Espacio para el botón en la parte superior 
+  padding-top: 45px; /* Espacio para el botón en la parte superior */
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  overflow-y: auto; /* Permite scroll si el contenido es muy largo 
+  overflow-y: auto; /* Permite scroll si el contenido es muy largo */
   box-sizing: border-box;
 }
 
@@ -82,17 +82,17 @@
   opacity: 1;
 }
 
-/* Modifica la posición del botón existente 
+/* Modifica la posición del botón existente */
 .btProjects {
-  /* Cambia estas propiedades 
+  /* Cambia estas propiedades */
   position: absolute;
-  top: auto; /* Elimina la posición desde arriba 
-  bottom: 220px; /* Ajusta este valor según necesites para posicionar el botón 
+  top: auto; /* Elimina la posición desde arriba */
+  bottom: 220px; /* Ajusta este valor según necesites para posicionar el botón */
   left: 50%;
   transform: translateX(-50%);
 
   
-  /* Mantén estas propiedades 
+  /* Mantén estas propiedades */
   background-color: #4a90e2;
   color: white;
   border: none;
@@ -102,13 +102,12 @@
   font-weight: bold;
   z-index: 10;
   
-  /* Cambiar la visibilidad 
-  opacity: 1; /* Hacer el botón siempre visible, no solo en hover 
+  /* Cambiar la visibilidad */
+  opacity: 1; /* Hacer el botón siempre visible, no solo en hover */
 }
 
-/* Si quieres mantener otros efectos de hover, puedes ajustarlos 
+/* Si quieres mantener otros efectos de hover, puedes ajustarlos */
 .Card:hover .btProjects {
-  /* Puedes agregar otros efectos de hover si los deseas 
+  /* Puedes agregar otros efectos de hover si los deseas */
   transform: translateX(-50%) scale(1.05);
 }
-  */
