@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 
 export const IconSkills = ({ img, name, min = 0, max = 100, value = 50 }) => {
   return (
@@ -17,4 +17,3 @@ export const IconSkills = ({ img, name, min = 0, max = 100, value = 50 }) => {
     </div>
   )
 }
-*/
