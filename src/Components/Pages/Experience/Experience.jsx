@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import "./Experience.css";
 import { CardExperience } from '../../UI/CardExperience/CardExperience';
 import Experience1 from '../../../assets/img/Experience1.jpeg';
@@ -24,4 +24,3 @@ export const Experience = () => {
     </section>
   )
 }
-*/
