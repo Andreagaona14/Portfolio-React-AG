@@ -1,4 +1,4 @@
-/*import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
 export const AnimatedContent = ({ name, profession, image }) => {
@@ -34,4 +34,3 @@ export const AnimatedContent = ({ name, profession, image }) => {
     </div>
   )
 }
-*/
