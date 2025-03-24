@@ -11,7 +11,7 @@ export const Skills = () => {
     <div>
      <h2 className='titleSkills'>Mis Habilidades</h2>
 
-  /* Habilidades técnicas con slider 
+  {/* Habilidades técnicas con slider*/}
   <div className="skills-container">
     <CardSkills  />
  </div>
