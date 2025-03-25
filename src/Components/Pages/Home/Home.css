@@ -114,3 +114,41 @@ object-fit: cover;
 .tittleSocialskills p{
   margin: 1px ;
 }
+
+
+@media (max-width: 400px) {
+  .homeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Evita recortes en pantallas pequeñas */
+    margin-top: 50px; /* Reduce el margen */
+    padding-top: 30px; /* Ajusta el espacio interno */
+  }
+  
+  .animated-img {
+    width: 200px; /* Reduce tamaño */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block; /* Evita problemas de alineación */
+    margin: 0 auto; /* Centra correctamente */
+  }
+
+  .titles {
+    text-align: center;
+    margin: 0 auto; 
+  }
+
+  .animated-title {
+    font-size: 2rem; /* Reduce tamaño */
+    margin-bottom: 10px;
+    
+  }
+
+  .titleProfession {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+}
