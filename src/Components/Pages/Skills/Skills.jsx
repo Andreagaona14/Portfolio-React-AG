@@ -18,7 +18,7 @@ export const Skills = () => {
 
   {/* Otras habilidades con descripción */}
   <h2 className='title2'>Otras Habilidades</h2>
-  <div className="skills-info-container">
+  <div className="skills-container">
     <CardSkillsInfo img={ImGithub} SkillsNameInfo="Control de Versiones" description="Git, GitHub" />
     <CardSkillsInfo img={ImgStudy} SkillsNameInfo="Educación y Liderazgo" description="Lógica de programación, conferencias" />
   </div>

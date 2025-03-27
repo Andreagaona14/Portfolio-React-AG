@@ -35,14 +35,6 @@
   margin: auto;
 }
 
-.skills-info-container p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 40px; /* Ajusta según sea necesario */
-
-}
 
 /* Estilos para títulos */
 .titleSkills{
@@ -55,11 +47,24 @@
 
 
 .cardSkillsInfo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
-  max-width: 150px; /* Tamaño máximo */
+  max-width: 100px; /* Tamaño máximo */
   height: 80%;
+  right: 2000px;
+  top: 20px;
   position: relative;
-  top: 60px;
+  right: -10rem;
+  }
+
+.cardSkillsInfo p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px; /* Ajusta según sea necesario */
 }
 
 .cardSkills {
@@ -78,10 +83,13 @@
 .title2{
   text-align: center;
   color: #333;
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: relative;
   top: 30px; /* Ajusta según sea necesario */
 }
+
+
+
 
 /* Diseño responsivo */
 @media (max-width: 768px) {
