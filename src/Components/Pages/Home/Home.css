@@ -9,14 +9,14 @@
 }
 
 
-.titles {
+/* .titles {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 10px;
   margin-right: 60%;
-}
+} */
 
 
 .animated-container {
@@ -25,6 +25,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 gap: 0px;
+margin-right: 60%;
 }
 
 .animated-title {
@@ -117,28 +118,60 @@ object-fit: cover;
 
 
 @media (max-width: 765px) {
+ #root{
+  width: 100vw;
+ }
+  body{
+  width: 100vw;
+ }
+  header{
+    width: 400px;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+  }
+  .container{
+    max-width: 100%;
+  }
+  .animated-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+    flex-direction: column-reverse;
+    
+  }
+  .animated-container h1{
+    position: relative;
+    left: -1%;
+    top: -70%;
+  }
+  .animated-container h2{
+    position: relative;
+    left: -2%;
+    top: -20%;
+  }
   .homeSection {
+    width:80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    min-height: 100vh; /* Evita recortes en pantallas pequeñas */
-    margin-top: 80px; /* Reduce el margen */
-    padding-top: 30px; /* Ajusta el espacio interno */
+    justify-content: center;
+    min-height: 100px;
+    position: relative;
+    left: 9%;
+    top: 150px; /* Evita recortes en pantallas pequeñas */
   }
   
   .animated-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 200px; /* Reduce tamaño */
     height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block; /* Evita problemas de alineación */
-    margin: 0 auto; /* Centra correctamente */
-    top: 180px;
-    right: 15%;
+    position:relative;
+    z-index: 0;
+    top: -200px;    
+    left: 0%;
   }
 
   .titles {
@@ -148,13 +181,14 @@ object-fit: cover;
 
   .animated-title {
     font-size: 2rem; /* Reduce tamaño */
-    
   }
 
   .titleProfession {
     font-size: 1.2rem;
     margin-bottom: 15px;
   }
+
+
 }
 
 @media (min-width: 1024px) {

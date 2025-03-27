@@ -8,14 +8,12 @@ export const Home = () => {
   return (
     <>
       <section className="homeSection">
-        <div className="titles">
           <AnimatedContent
             image={ImgHome}
             name="Andrea Gaona"
             profession="Desarrollador de software"
             
           />
-        </div>
       </section>
       <Profile />
     </>
