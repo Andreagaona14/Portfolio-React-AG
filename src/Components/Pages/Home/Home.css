@@ -1,154 +1,186 @@
 .homeSection {
   display: flex;
-  flex-direction: column; /* Acomoda en columna */
-  align-items: center; /* Centra horizontalmente */
-  justify-content: center; /* Centra verticalmente */
-  height: 60vh; /* Ajusta la altura */
-  margin-top: 80px; /* Baja el contenedor */
-  padding-top: 50px; /* Espacio interno arriba */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 80px;
+  padding: 20px;
 }
-
 
 .titles {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
-  margin-right: 60%;
+  gap: 20px;
+  margin-right: 0;
+  width: 100%;
 }
-
 
 .animated-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-gap: 20px;
-}
-
-.animated-title {
-font-size: 4rem;
-font-weight: bold;
-text-align: center;
-margin: 0;
-padding: 0; 
-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 100%;
 }
 
 .animated-img {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  position: absolute; /* Usar posicionamiento absoluto */
-  right: 90px; /* Ajusta la distancia desde la derecha */
-  top: 170px; /* Sube la imagen ajustando este valor */
-  z-index: 1; /* Asegura que la imagen esté por encima de otros elementos */
+  margin-bottom: 20px;
 }
 
-
-.titleProfession{
-font-size: 2rem;
-display: inline;
-top: 200px;
-}
-
-.imgHome  img{
-width: 400px;
-height: 350px;
-border-radius: 50%;
-position: relative;
-left: 100px;
-}
-
-
-/*PERFIL*/
-.profile-container {
-display: flex;
-align-items: center; /* Centra verticalmente */
-justify-content: center; /* Centra horizontalmente */
-gap: 20px; /* Espaciado entre la imagen y el texto */
-max-width: 80%;
-width: 100%;
-margin: auto; /* Centra el contenido */
-text-align: center;
-}
-
-.profile-title{
+.animated-title {
+  font-size: 2.5rem;
   text-align: center;
 }
 
+.titleProfession {
+  font-size: 1.5rem;
+}
 
-.profile-container p {
-  text-align: center;
-  max-width: 600px; /* Controla el ancho del texto */
+@media (min-width: 768px) {
+  .homeSection {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
 
-.imgProfile img {
-width: 200px; /* Tamaño de la imagen */
-height: 200px;
-border-radius: 50%; /* Imagen circular */
-object-fit: cover;
+  .titles {
+    align-items: flex-start;
+    text-align: left;
+    margin-right: 0;
+    max-width: 50%;
+  }
+
+  .animated-container {
+    align-items: flex-start;
+  }
+
+  .animated-title {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+
+  .titleProfession {
+    font-size: 2rem;
+  }
+
+  .animated-img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 0;
+  }
 }
 
+@media (min-width: 1024px) {
+  .animated-img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .animated-title {
+    font-size: 4rem;
+  }
+}
+/*PERFIL*/
 .profile-section {
- /* min-height: 100vh; /* Hace que la sección del perfil ocupe al menos el alto de la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: -100px
+  padding: 50px 20px;
 }
 
-/*HABILIDADES SOCIALES*/
-.tittleSocialskills {
+.profile-container {
   display: flex;
-  flex-direction: column; /* Apila los elementos en columna */
-  align-items: center; /* Centra horizontalmente */
-  justify-content: center; /* Centra verticalmente si hay espacio */
-  padding: 80px;
-  gap: 10px; 
+  flex-direction: column; /* Cambio principal para móviles */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
-.tittleSocialskills p{
-  margin: 1px ;
+.imgProfile {
+  order: -1; /* Asegura que la imagen esté arriba en móviles */
+  margin-bottom: 20px;
 }
 
+.imgProfile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
-@media (max-width: 400px) {
-  .homeSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* Evita recortes en pantallas pequeñas */
-    margin-top: 50px; /* Reduce el margen */
-    padding-top: 30px; /* Ajusta el espacio interno */
-  }
-  
-  .animated-img {
-    width: 200px; /* Reduce tamaño */
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block; /* Evita problemas de alineación */
-    margin: 0 auto; /* Centra correctamente */
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.profile-container p {
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
+/* Versión de escritorio */
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row;
+    gap: 50px;
   }
 
-  .titles {
-    text-align: center;
-    margin: 0 auto; 
+  .imgProfile {
+    order: 0; /* Restaura el orden original */
   }
 
-  .animated-title {
-    font-size: 2rem; /* Reduce tamaño */
-    margin-bottom: 10px;
-    
+  .imgProfile img {
+    width: 300px;
+    height: 300px;
   }
 
-  .titleProfession {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+  .profile-title {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .profile-content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .profile-container p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imgProfile img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .profile-title {
+    font-size: 3rem;
   }
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Profile } from "../../Layouts/Profile/Profile";
 import { AnimatedContent } from "../../UI/AnimatedContent/AnimatedContent";
 import ImgHome from "../../../assets/img/ImgHome.jpeg";
@@ -8,10 +9,10 @@ export const Home = () => {
     <>
       <section className="homeSection">
         <div className="titles">
-          <AnimatedContent 
-            name="Andrea Gaona" 
-            profession="Desarrollador de software" 
-            image={ImgHome} 
+          <AnimatedContent
+            name="Andrea Gaona"
+            profession="Desarrollador de software"
+            image={ImgHome}
           />
         </div>
       </section>
