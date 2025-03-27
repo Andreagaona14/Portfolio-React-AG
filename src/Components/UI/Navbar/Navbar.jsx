@@ -14,7 +14,6 @@ export const Navbar = ({classNavbar = 'nav', navLink = 'navbarLink'}) => {
        
       </ul>
     </nav>
-
   )
 }
   

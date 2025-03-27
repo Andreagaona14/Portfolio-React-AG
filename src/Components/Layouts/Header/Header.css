@@ -1,14 +1,15 @@
-/* Estilos generales del header */
 header {
   position: fixed;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 90%;
+  max-width: 1200px; /* Añade un ancho máximo para pantallas grandes */
   background: rgba(255, 255, 255, 0.6);
   padding: 12px 25px;
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Distribuye los elementos */
   gap: 20px;
   border-radius: 50px;
   backdrop-filter: blur(10px);
@@ -16,113 +17,92 @@ header {
   z-index: 1000;
 }
 
-/* Estilos del logo */
+/* Logo y título */
+header .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 header img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-left: 3.5rem;
 }
 
-/* Título */
 header h2 {
   font-size: 1.5rem;
   color: #333;
-  margin-left: 8rem;
+  margin: 0;
 }
 
-/* Estilos de la navbar */
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
 .navbarLink {
   display: flex;
-  flex-direction: row;
   list-style: none;
   gap: 2rem;
-  margin-left: 10rem;
+  margin: 0;
+  padding: 0;
 }
 
-/* Estilos de los enlaces */
-.Navbar a {
+.navbar a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 8px 15px;
   border-radius: 20px;
   transition: background 0.3s ease-in-out;
 }
 
-.Navbar a:hover {
+.navbar a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Botón de menú hamburguesa */
+/* Botón hamburguesa */
 .hamburger {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
   display: none;
-  color: #333;
 }
 
-/* 📌 Media Query para móviles */
+/* Media Query para dispositivos pequeños */
 @media (max-width: 852px) {
-  /* Mostrar botón hamburguesa */
+  header {
+    width: 95%;
+    padding: 12px 15px;
+  }
+
   .hamburger {
     display: block;
-  }
-
-  /* Ajuste del logo */
-  header img {
-    width: 50px;
-    height: 50px;
-    margin-left: -0.3rem;
-  }
-
-  /* Ajuste del título */
-  header h2 {
-    font-size: 1.2rem;
-    margin-left: -1rem;
-  }
-
-  /* Menú oculto inicialmente */
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 70px;
-    right: -100%; /* Oculto fuera de la pantalla */
-    width: 60%;
-    max-width: 250px;
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    transition: right 0.3s ease-in-out;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  /* Cuando el menú está activo */
-  .navbar.open {
-    right: 20px;
-  }
-
-  /* Alineación del menú */
-  .navbar ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-
-  .navbar ul li {
-    font-size: 1rem;
-    color: #333;
+    font-size: 2rem;
+    background: none;
+    border: none;
     cursor: pointer;
+    color: #333;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar.open {
+    display: flex;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbarLink {
+    flex-direction: column;
+    align-items: center;
   }
 }
