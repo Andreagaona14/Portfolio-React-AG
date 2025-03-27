@@ -4,7 +4,7 @@
   align-items: center; /* Centra horizontalmente */
   justify-content: center; /* Centra verticalmente */
   height: 60vh; /* Ajusta la altura */
-  margin-top: 80px; /* Baja el contenedor */
+  margin-top: 40px; /* Baja el contenedor */
   padding-top: 50px; /* Espacio interno arriba */
 }
 
@@ -24,7 +24,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-gap: 20px;
+gap: 0px;
 }
 
 .animated-title {
@@ -121,9 +121,9 @@ object-fit: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     min-height: 100vh; /* Evita recortes en pantallas pequeñas */
-    margin-top: 50px; /* Reduce el margen */
+    margin-top: 80px; /* Reduce el margen */
     padding-top: 30px; /* Ajusta el espacio interno */
   }
   
@@ -137,7 +137,7 @@ object-fit: cover;
     object-fit: cover;
     display: block; /* Evita problemas de alineación */
     margin: 0 auto; /* Centra correctamente */
-    top: 130px;
+    top: 180px;
     right: 15%;
   }
 
@@ -148,7 +148,6 @@ object-fit: cover;
 
   .animated-title {
     font-size: 2rem; /* Reduce tamaño */
-    margin-bottom: px;
     
   }
 

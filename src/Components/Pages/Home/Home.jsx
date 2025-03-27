@@ -10,9 +10,10 @@ export const Home = () => {
       <section className="homeSection">
         <div className="titles">
           <AnimatedContent
+            image={ImgHome}
             name="Andrea Gaona"
             profession="Desarrollador de software"
-            image={ImgHome}
+            
           />
         </div>
       </section>
