@@ -91,9 +91,24 @@
 
 
 
-/* Diseño responsivo */
-@media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+@media (min-width: 768px) {
+  .cardSkillsInfo {
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    
+ 
+  }
+
+  .cardSkillsInfo img {
+    position: static; /* Elimina position: relative y right */
+    width: 100px;
+    height: 100px;
+    margin: 10px auto; /* Centra horizontalmente */
+    right: -10rem;
   }
 }
